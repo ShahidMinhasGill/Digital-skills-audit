@@ -66,3 +66,48 @@
     }
 
 }
+
+@media (max-width: 992px) {
+    .footer{
+        p {
+            font-size: 14px;
+        }
+    }
+  }
+  @media (max-width: 768px) {
+    .footer{
+        h2 {
+            font-size: 18px;
+        }
+    }
+  }
+  @media (max-width: 625px) {
+ 
+  }
+  @media (max-width: 425px) {
+    .footer{
+        h2 {
+            font-size: 14px;
+        }
+        p{
+            font-size: 12px;
+        }
+        a{
+            font-size: 14px;
+        }
+        h3{
+            font-size: 12px;
+        }
+        span {
+           
+            font-size: 12px;
+        }
+        .Search input {
+            font-size: 12px;
+        }
+        button{
+            width: 100px;
+        }
+    }
+  }
+  
