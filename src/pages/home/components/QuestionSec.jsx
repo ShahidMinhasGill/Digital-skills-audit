@@ -67,13 +67,13 @@ const QuestionSec = () => {
       </div>
       <div className="row ask-quistion d-flex justify-content-center mt-5">
         <div className="col-11 d-flex">
-          <div className="col-1 text-center">
-            <h2>5</h2>
-          </div>
+        
           <div className="col-lg-8 col-md-12 ">
-            <h2>
+              <h3>Digital skill audit</h3>
+            <h2 className="mt-3">
             {currentData.map(item => (
-          <li key={item.id}>{item.name}</li>
+            
+          <span key={item.id}>{item.name}</span>
         ))}
             </h2>
           </div>
